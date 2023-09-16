@@ -78,3 +78,49 @@ for i in range(n):
           * 
 ```
 
+# 5. Create left increasing triangle pattern:<br>
+
+```python
+for i in range(n):
+    for j in range(i,n): # loop for increasing triangle with space
+        print(" ",end=" ")
+    for j in range(i+1):
+        print("*",end=" ")
+    print(" ")
+
+```
+## OUTPUT:
+
+```
+          *
+        * *
+      * * *
+    * * * *
+  * * * * *
+```
+
+# 6. Create right decreasing triangle pattern:<br>
+
+```python
+for i in range(n):
+    for j in range(i+1): #left increasing triangle with space
+        print(" ",end=" ")
+    for j in range(i,n): # left decreasing triangle with space
+        print(" ",end=" ")
+    for j in range(i,n):  # right decreasing triangle
+        print("*",end=" ")
+    print(" ")
+
+```
+## OUTPUT:
+
+```
+            * * * * *  
+            * * * *  
+            * * *  
+            * *
+            *
+```
+
+
+
