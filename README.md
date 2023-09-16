@@ -123,4 +123,24 @@ for i in range(n):
 ```
 
 
+# 7. Code for right increasing triangle pattern: <br>
 
+```python
+for i in range(n):
+    for j in range(i+1):
+        print(" ",end=" ")
+    for j in range(i,n):
+        print(" ",end=" ")
+    for j in range(i+1):
+        print("*",end=" ")
+    print(" ")
+```
+## OUTPUT:
+
+```
+            * * * * *  
+            * * * *  
+            * * *  
+            * *
+            *
+```
