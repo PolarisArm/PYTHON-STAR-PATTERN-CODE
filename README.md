@@ -20,7 +20,7 @@ for i in range(n):
 * * * * * *
 ```
 
-# 2. Create increasing triangle  pattern:<br>
+# 2. Create increasing triangle pattern:<br>
 
 ```python
 for i in range(n):
@@ -37,5 +37,24 @@ for i in range(n):
 * * *
 * * * *
 * * * * *
+```
+
+# 2. Create decreasing triangle pattern:<br>
+
+```python
+for i in range(n):
+    for j in range(i,n): # loop for decreasing triangle
+        print("*",end=" ")
+    print(" ")
+
+```
+## OUTPUT:
+
+```
+* * * * *  
+  * * * *  
+    * * *  
+      * *  
+        *  
 ```
 
